@@ -11,7 +11,7 @@ const {updUser} = require('../controllers/controllers.js');
 router.get('/users',getUser);
 router.post('/users',setUser);
 router.get('/users/:userid',getUserById);
-router.delete('/user/:userid',delUser);
-router.put('/user/:userid',updUser);
+router.delete('/users/:userid',delUser);
+router.put('/users/:userid',updUser);
 
 module.exports = router;
